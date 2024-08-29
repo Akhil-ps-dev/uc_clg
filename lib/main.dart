@@ -50,6 +50,22 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
+          Row(
+            children: [
+              FloatingActionButton(
+                onPressed: () {},
+                child: Icon(
+                  Icons.add,
+                ),
+              ),
+              FloatingActionButton(
+                onPressed: () {},
+                child: Icon(
+                  Icons.minimize,
+                ),
+              ),
+            ],
+          )
         ],
       ),
     );
